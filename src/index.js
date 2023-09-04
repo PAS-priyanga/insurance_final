@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router } from 'react-router-dom';
-//import './index.css';
+
+import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import "./superhero.css";
 import 'bootstrap/dist/js/bootstrap.bundle';
 import App from './pages/App/App';
 import { PolicyContextProvider } from './context/PolicyContext';
