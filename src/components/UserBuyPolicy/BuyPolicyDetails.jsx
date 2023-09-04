@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useOrderContext } from '../../hooks/useOrdersContext';
-
+import './BuyPolicyDetails.css';
 const BuyPolicyDetails = ({ policy }) => {
     const [showAdd, setShowAdd] = useState(true);
     const [showRemove, setShowRemove] = useState(false);

@@ -37,38 +37,47 @@ const AddPolicyForm = ({show, setShow}) => {
 
   }
 
-  return (
-    <form className="create" onSubmit={handleSubmit}> 
-      <h3>Add Policy</h3>
-
-      <label>Policy Name:</label>
-      <input 
-        type="text" 
-        onChange={(e) => setName(e.target.value)} 
-        value={name}
-      />
-
-      <label>Price:</label>
-      <input 
-        type="number" 
-        onChange={(e) => setPrice(e.target.value)} 
-        value={price}
-      />
-
-      <label>Term :</label>
-      <input 
-        type="text" 
-        onChange={(e) => setTerm(e.target.value)} 
-        value={term} 
-      />
-
-<label>Type :</label>
-<select value={type} onChange={(e) => setType(e.target.value)}>
-        <option value=''></option>
-        <option value="VEHICLE">Vehicle</option>
-        <option value="HOUSE">Housing</option>
-        <option value="TRAVEL">Travel</option>
-      </select>
+  
+    return (
+      <form className="create" onSubmit={handleSubmit}>
+        <h3>Add Policy</h3>
+  
+        <div className="form-group">
+          <label>Policy Name:</label>
+          <input
+            type="text"
+            onChange={(e) => setName(e.target.value)}
+            value={name}
+          />
+        </div>
+  
+        <div className="form-group">
+          <label>Price:</label>
+          <input
+            type="number"
+            onChange={(e) => setPrice(e.target.value)}
+            value={price}
+          />
+        </div>
+  
+        <div className="form-group">
+          <label>Term :</label>
+          <input
+            type="text"
+            onChange={(e) => setTerm(e.target.value)}
+            value={term}
+          />
+        </div>
+  
+        <div className="form-group">
+          <label>Type :</label>
+          <select value={type} onChange={(e) => setType(e.target.value)}>
+            <option value=""></option>
+            <option value="VEHICLE">Vehicle</option>
+            <option value="HOUSE">Housing</option>
+            <option value="TRAVEL">Travel</option>
+          </select>
+        </div>
       {/* TODO  FIND A PLACE TO HOOK THIS FORM IN AND WHAT TO DO ONCE ITS SUCESSFULL */}
 
       <button>ADD</button>
