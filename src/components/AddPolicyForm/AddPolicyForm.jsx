@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { addPolicy } from '../../utilities/policy-api'
-
+import './AddPolicyForm.css';
 
 const AddPolicyForm = ({show, setShow}) => {
   

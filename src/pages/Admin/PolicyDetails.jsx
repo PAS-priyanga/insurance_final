@@ -3,7 +3,7 @@ import PolicyForm from './PolicyForm'
 import { useState } from 'react';
 import { usePolicyContext } from '../../hooks/usePoliciesContext';
 import { deletePolicy } from '../../utilities/policy-api';
-
+import './PolicyDetails.css';
 const PolicyDetails = ({ policy }) => {
     const [show, setShow] = useState(false);
     const {dispatch} = usePolicyContext()
