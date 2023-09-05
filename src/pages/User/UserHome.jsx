@@ -1,5 +1,6 @@
 import { Link, Route, Routes } from "react-router-dom";
-import NavBar from "../../components/NavBar/NavBar";
+// import NavBar from "../../components/NavBar/NavBar";
+import "./UserHome.css";
 import { useState } from "react";
 import { useOrderContext } from "../../hooks/useOrdersContext";
 import UserInsuranceCatalog from "../Catalog/UserInsuranceCatalog";
@@ -58,7 +59,7 @@ export default function UserHome({ user, setUser }) {
     }
     return (
         <>
-        <NavBar user={user} setUser={setUser} />
+        {/* <NavBar user={user} setUser={setUser} /> */}
          
         <div className="selector-home">
         { selector === true &&

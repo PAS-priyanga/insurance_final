@@ -1,5 +1,5 @@
 import { Link, Route, Routes } from "react-router-dom";
-import NavBar from "../../components/NavBar/NavBar";
+// import NavBar from "../../components/NavBar/NavBar";
 import { useState } from "react";
 import AddPolicyForm from "../../components/AddPolicyForm/AddPolicyForm";
 import InsuranceCatalog from "../Catalog/InsuranceCatalog";
@@ -57,7 +57,7 @@ export default function AdminHome({ user, setUser }) {
 
     return (
         <>
-        <NavBar user={user} setUser={setUser} />
+        {/* <NavBar user={user} setUser={setUser} /> */}
         <h2>Welcome Admin!</h2> 
         
         {
