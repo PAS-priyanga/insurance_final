@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { updatePolicy } from '../../utilities/policy-api'
-
+import './PolicyForm.css';
 const PolicyForm = ({policy}) => {
   
     
@@ -39,26 +39,34 @@ const PolicyForm = ({policy}) => {
     <form className="create" onSubmit={handleSubmit}> 
       <h3>Edit</h3>
 
+      <div className= "edit-field">
       <label>Policy Name:</label>
       <input 
         type="text" 
         onChange={(e) => setName(e.target.value)} 
         value={name}
+        className="input-element" 
       />
+      </div>
 
+      <div className= "edit-field">
       <label>Price:</label>
       <input 
         type="number" 
         onChange={(e) => setPrice(e.target.value)} 
         value={price}
+        className="input-element" 
       />
-
+      </div>
+      <div className= "edit-field">
       <label>Term :</label>
       <input 
         type="text" 
         onChange={(e) => setTerm(e.target.value)} 
         value={term} 
+        className="input-element" 
       />
+      </div>
 
       <button>Done</button>
       {error && <div className="error">{error}</div>}

@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { getUser } from '../../utilities/users-service';
-//import './App.css';
 import { Container, Row } from 'react-bootstrap';
 import BootstrapNavbar from '../../components/BootstrapNavbar/BootstrapNavBar';
 import AuthPage from '../AuthPage/AuthPage';
@@ -27,7 +26,6 @@ export default function App() {
               console.log('LOGIN HOME AFTER')
                 if(user) {
                   console.log(user)
-                  // hardcoded admin here but can be extended to an email pattern
                         if(user.email === 'admin@insurancehub.com'){
                           return (
                                   <>

@@ -1,0 +1,14 @@
+.edit-field {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px; 
+  }
+
+  .edit-field label {
+    width: 50px; /* Adjust the width of the label as needed */
+    margin-right: 10px; /* Add space between label and input */
+  }
+
+  .input-element {
+    color: black;
+  }
