@@ -23,14 +23,13 @@ User can view and select policies within the chosen category.
 checkout the slected policies.
 
 Insurance hub: Screenshot
-<img src="sign in page.jpg"/>
-<img src="add insurance page.jpg"/>
-<img src="manage insurance page.jpg"/>
+<img src="cartpage.jpg"/>
+<img src="addpolicypage.jpg"/>
 <img src="admin landing page.jpg"/>
-<img src="sign up form.jpg"/>
-<img src="user landing page.jpg"/>
-<img src="add policy page.jpg"/>
-<img src="cart page.jpg"/>
+<img src="signupform.jpg"/>
+<img src="userlandingpage.jpg"/>
+<img src="addpolicypage.jpg"/>
+
 
 Technologies Used:
 Incorporate the technologies of the MERN-stack:
