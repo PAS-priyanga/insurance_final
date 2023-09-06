@@ -24,7 +24,6 @@
     cursor: pointer;
     color: blue;
     text-decoration: underline;
-    margin-right: 10px;
   }
   
   .policy-details .delete-button {
@@ -34,7 +33,7 @@
   }
   
   .modal {
-    display: none;
+    display: inline-block;
     position: fixed;
     top: 0;
     left: 0;
@@ -85,6 +84,5 @@
   .edit-link{color: blue;
     cursor: pointer;
     text-decoration: underline;
-    .edit-link:hover {
-      color: #0056b3; }
+
   }

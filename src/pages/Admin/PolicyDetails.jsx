@@ -9,10 +9,14 @@ const PolicyDetails = ({ policy }) => {
   const { dispatch } = usePolicyContext();
 
   const handleShow = () => {
-    setShow(true); // Ensure that show is set to true when clicking "Edit"
+    console.log('handleShow called');
+    console.log (show);
+    setShow(true);
+    console.log(show); // Ensure that show is set to true when clicking "Edit"
   };
 
   const handleClose = () => {
+    console.log('handleClose called');
     setShow(false);
   };
 
@@ -51,7 +55,7 @@ const PolicyDetails = ({ policy }) => {
       {show === true && (
         <div className="modal">
           <div className="modal-header">
-            <div className="modal-title">Edit Policy</div>
+            <div className="modal-title">Edit</div>
           </div>
           <div className="modal-body">
             <PolicyForm policy={policy} />

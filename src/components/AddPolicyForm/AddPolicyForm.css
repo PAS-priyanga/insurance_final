@@ -6,6 +6,9 @@
     background-color:purple;
     border-radius: 4px;
   }
+  .input-element {
+    color: black;
+  }
   
   h3 {
     font-size: 20px;

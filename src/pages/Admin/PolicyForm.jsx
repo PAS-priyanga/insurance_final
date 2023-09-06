@@ -37,7 +37,7 @@ const PolicyForm = ({policy}) => {
 
   return (
     <form className="create" onSubmit={handleSubmit}> 
-      <h3>Edit Policy</h3>
+      <h3>Edit</h3>
 
       <label>Policy Name:</label>
       <input 

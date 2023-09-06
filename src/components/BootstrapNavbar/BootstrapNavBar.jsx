@@ -17,17 +17,22 @@ function BootstrapNavbar({user, setUser}) {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
+
           {user && user.name ? (
             <>
               <Navbar.Text>
                 Welcome: {user.name }
               </Navbar.Text>
+              {user.email != 'admin@insurancehub.com' &&
+              <>
               <Link className="nav-link" to="/orders">
                 Order History
               </Link>
               <Link className="nav-link" to="/orders/new">
                 New Order
               </Link>
+              </>
+              }
               <Link className="nav-link" onClick={handleLogOut}>Log Out</Link>
             </>
           ) : (

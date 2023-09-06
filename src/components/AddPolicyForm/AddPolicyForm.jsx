@@ -48,6 +48,7 @@ const AddPolicyForm = ({show, setShow}) => {
             type="text"
             onChange={(e) => setName(e.target.value)}
             value={name}
+            className="input-element" 
           />
         </div>
   
@@ -57,6 +58,7 @@ const AddPolicyForm = ({show, setShow}) => {
             type="number"
             onChange={(e) => setPrice(e.target.value)}
             value={price}
+            className="input-element" 
           />
         </div>
   
@@ -66,6 +68,7 @@ const AddPolicyForm = ({show, setShow}) => {
             type="text"
             onChange={(e) => setTerm(e.target.value)}
             value={term}
+            className="input-element" 
           />
         </div>
   

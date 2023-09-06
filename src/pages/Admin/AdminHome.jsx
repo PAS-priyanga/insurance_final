@@ -58,7 +58,7 @@ export default function AdminHome({ user, setUser }) {
     return (
         <>
         {/* <NavBar user={user} setUser={setUser} /> */}
-        <h2>Welcome Admin!</h2> 
+        <h2>Welcome , {user.name}</h2> 
         
         {
             showMenu === true &&
