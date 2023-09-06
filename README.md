@@ -41,6 +41,8 @@ Node.js
 React Bootstrap
 
 Getting Started
+https://trello.com/b/iuDMOcE7/capstone-project -trello link
+https://dashboard.heroku.com/apps/priyangainsurancehub- heroku link
 
 Next Steps:
 scheduler for policy renuals
